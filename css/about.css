@@ -46,6 +46,16 @@ button:focus .button-text {
     margin-top: 1rem;
 }
 
+.insta-link {
+    color: #5DACA8;
+    text-decoration: none;
+}
+
+.insta-link:hover,
+.insta-link:focus {
+    color: #427876;
+}
+
 /* Responsive */
 @media all and (max-width: 81.25rem) {
     .left-content,
