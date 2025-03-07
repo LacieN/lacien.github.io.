@@ -321,6 +321,12 @@ pre {
   box-shadow: 0px 1.007px 12.59px 1.007px rgba(0, 0, 0, 0.10);
 }
 
+.fbimg-text-2columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
 .large-quote p{
   font-size: 2.25rem;
   line-height: 3.25rem;
