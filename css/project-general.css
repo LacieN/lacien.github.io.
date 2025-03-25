@@ -374,6 +374,11 @@ pre {
   border: 1px solid #E1F18B;
 }
 
+.highlight-green span{
+  background-color: #E1F18B;
+  font-weight: normal;
+}
+
 /*Bandsintown*/
 .text-img-2columns.bandsintown-ver {
   display: grid;
