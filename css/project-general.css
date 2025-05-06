@@ -1,26 +1,32 @@
 .content-before-cover,
 .content-after-cover {
-    margin: 0 15rem;
+    margin: 0 3em;
 }
 
-.project-content h1{
-    margin-top: 3.5rem;
+video::-webkit-media-controls-timeline {display: none;}
+
+.project-content h2{
+    margin-top: 5rem;
     margin-bottom: 0;
 }
 
 .project-description .project-types p {
-    margin-bottom: 1rem;
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #586165;
+}
+
+.short-description{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2rem;
 }
 
 .project-cover-img img {
-    /* position: absolute; */
     left: 0;
     max-width: 100%;
     max-height: 100%;
-    /* margin: 1.5rem 0; */
-    /* background-size: cover; */
 }
 
 .img-caption p{
@@ -34,211 +40,82 @@
   margin: 1.5rem 0;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #212121;
+  padding: 0;
+}
+
+/* project details */
+.project-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.project-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .brief-project-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    /* grid-template-columns: repeat(3, 1fr); */
 }
 
 .brief-project-info ul{
     list-style: none;
     padding: 0;
-    font-size: 1.05rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.35rem;
     margin-top: 0.5rem;
 }
 
-.brief-project-info h3{
+.brief-project-info h4{
     margin-bottom: 0.5rem;
 }
 
-/* carousel */
-.carousel-container img {
-    vertical-align: middle;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .carousel-container {
-    position: relative;
-    margin: 0 13rem;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    width: auto;
-    padding: 10px;
-    margin-top: -50px;
-    color: #1A2429;
-    font-weight: bold;
-    font-size: 30px;
-    user-select: none;
-    -webkit-user-select: none;
-    transition: all 0.3s ease;
-  }
-  
-  .prev {
-    left: -10%;
-  }
-
-  .next {
-    right: -10%;
-  }
-  
-  .prev:hover,
-  .next:hover,
-  .prev:focus,
-  .next:focus {
-    background-color: #1A2429;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 20%;
-  }
-
-  .row {
-    margin-top: 0.5rem;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.3;
-    transition: all 0.3s ease;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-  /* project details */
-  .project-section {
-    margin-top: 4rem;
-  }
-
-  .project-section h2{
-    margin-bottom: 1rem;
-  }
-
-  .project-details .project-section.part-highlight span {
-    background-color: #FFE4E4;
-    font-weight: normal;
-  }
-
-  .project-details .project-section.part-bold span{
-    font-weight: bold;
-  }
-
-  .project-details .bold-emphasize {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 2rem;
-  }
-
-  /* Poster Project */
-  .project-section img {
-    max-width: 100%;
-    max-height: 100%;
+.content-after-cover {
+  display: grid;
+  column-gap: 6rem;
+  grid-template-columns: 0.2fr 1fr;
+ /* optional: adds space between sidebar and content */
 }
 
-  /* Color */
-.color-grid {
-  display: grid;
-  min-width: 0;
+.side-bar {
+  position: sticky;
+  top: 7rem; /* adjust based on how far from top you want it to stick */
+  align-self: flex-start; /* ensures it doesn't stretch weirdly */
+  height: fit-content; /* avoids taking full height */
+}
+
+.side-bar ul{
+  margin: 0;
+  /* margin-top: 2rem; */
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.9rem;
+}
+
+.side-bar h5 {
   margin-bottom: 0.5rem;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
+  margin-top: 1.95rem;
 }
 
-.color-item {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
+.anchor-target {
+  scroll-margin-top: 112px;
 }
 
-.color-palette-heading {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.color-item-info {
-  width: 100%;
-  padding: 1rem 0.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.color-item-info p,
-pre {
-  margin-top: 1rem;
-}
-
-.red {
-  background-color: #D12940;
-  color: white;
-}
-
-.black {
-  background-color: #272526;
-  color: white;
-}
-
-.red p,
-.black p {
-  color: white;
-}
-
-.white {
-  background-color: #FFFFFF;
-  /* border-color: black; */
-  border: solid 1px black;
-}
-
-.poster-sketch-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1rem;
-}
-
-.poster-iteration {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 1rem;
-}
-
-.poster-iteration p{
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
+/*urbanee*/
 .website-preview img{
   width: 100%;
 }
@@ -294,91 +171,6 @@ pre {
   grid-template-columns: 1fr 2.64fr;
 }
 
-/*Heritage Burnaby*/
-.img-text-2columns {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  column-gap: 2rem;
-}
-
-.text-with-img {
-  text-align: bottom;
-  margin-top: auto;
-}
-
-.text-with-img p{
-  margin-bottom: 0;
-}
-
-.text-img-2columns {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 2rem;
-  margin-bottom: 5rem;
-}
-
-.text-img-2columns img{
-  box-shadow: 0px 1.007px 12.59px 1.007px rgba(0, 0, 0, 0.10);
-}
-
-.fbimg-text-2columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
-}
-
-.large-quote p{
-  font-size: 1.95rem;
-  line-height: 2.75rem;
-  margin:0;
-}
-
-.four-img-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
-  row-gap: 1rem;
-  margin-bottom: 3rem;
-}
-
-.project-section li{
-  font-size: 1.05rem;
-  line-height: 1.75rem;
-  color: #44494b;
-  font-weight: 100;
-}
-
-.final-design img{
-  width: 100%;
-}
-
-.final-design a {
-  font-size: 1.10rem;
-  /* font-weight: bold; */
-  color: white;
-  background-color: #6A9241;
-  border: 1px solid #6A9241;
-  margin-top: 1.75rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  padding: 0.8rem 0.5rem;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.final-design a:hover,
-.final-design a:focus {
-  color: #1A2429;
-  background-color: #E1F18B;
-  border: 1px solid #E1F18B;
-}
-
-.highlight-green span{
-  background-color: #E1F18B;
-  font-weight: normal;
-}
-
 /*Bandsintown*/
 .text-img-2columns.bandsintown-ver {
   display: grid;
@@ -425,100 +217,12 @@ pre {
   border: 1px solid #EC004A;
 }
 
+.footer-line {
+  margin-top: 4rem;
+}
+
 /* Responsive */
-@media all and (max-width: 87.5rem) {
-  .carousel-container {
-    margin: 0 11rem;
-  }
-}
-
-@media all and (max-width: 81.25rem) {
-  .carousel-container {
-    margin: 0 10rem;
-  }
-}
-
-@media only screen and (max-width: 78.875rem){
-  .content-before-cover, 
-  .content-after-cover {
-    margin: 0 9rem;
-  }
-
-  .carousel-container {
-    margin: 0 17rem;
-  }
-}
-
-@media all and (max-width: 71.875rem) {
-  .carousel-container {
-    margin: 0 15rem;
-  }
-}
-
-@media all and (max-width: 68.75rem) {
-  .carousel-container {
-    margin: 0 13rem;
-  }
-}
-
-@media all and (max-width: 65.625rem) {
-  .carousel-container {
-    margin: 0 12rem;
-  }
-}
-
-@media all and (max-width: 62.5rem) {
-  .carousel-container {
-    margin: 0 11rem;
-  }
-}
-
-@media all and (max-width: 59.375rem) {
-  .carousel-container {
-    margin: 0 9rem;
-  }
-}
-
-@media only screen and (max-width: 59.0625rem){
-  .content-before-cover, 
-  .content-after-cover {
-    margin: 0 8rem;
-  }
-}
-
-@media all and (max-width: 56.25rem) {
-  .carousel-container {
-    margin: 0 8rem;
-  }
-}
-
-@media all and (max-width: 53.125rem) {
-  .content-before-cover, 
-  .content-after-cover {
-    margin: 0 7rem;
-  }
-
-  .carousel-container {
-    margin: 0 7rem;
-  }
-}
-
-@media all and (max-width: 50rem) {
-  .content-before-cover, 
-  .content-after-cover {
-    margin: 0 6rem;
-  }
-
-  .carousel-container {
-    margin: 0 6rem;
-  }
-}
-
 @media all and (max-width: 46.875rem) {
-  .carousel-container {
-    margin: 0 5rem;
-  }
-
   .brief-project-info {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="css/nav-bar.css" />
     <link rel="stylesheet" href="css/homepage.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/wrc5ffz.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/bf386900a0.js" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
     
     <title>Linh Nguyen</title>
     
@@ -28,16 +33,16 @@
         <div class="main-nav">
 
           <div class="logo-name-link">
-            <a href="index.html" class="logo-name"><img class="personal-logo" src="img/personal-logo.svg" alt="Lacie Nguyen's logo"/><strong>LINH</strong> NGUYEN</a>
+            <a href="index.html" class="logo-name"><strong>ln.</strong></a>
           </div>
 
           <div class="page-link">
             <input class="menu-btn" aria-label="hamburger-menu" type="checkbox" id="menu-btn" />
             <label class="menu-icon" aria-label="hamburger-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="index.html#featured-work" class="underline-animation">Work</a></li>
-              <li><a href="about.html" class="underline-animation">About</a></li>
-              <li><a href="asset/linh-nguyen-resume.pdf" target="_blank" class="underline-animation">Resume</a></li>
+              <li><a href="index.html#hero-underneath-line" class="hover-state">work</a></li>
+              <li><a href="about.html" class="hover-state">about</a></li>
+              <li><a href="asset/linhnguyen-resume.pdf" target="_blank" class="hover-state resume-btn">resume</a></li>
             </ul>
           </div>
 
@@ -48,183 +53,101 @@
     <section class="hero">
       <div class="hero-grid">
 
-        <div class="introduction" data-aos="fade-up" data-aos-duration="850">
-          <h1 class="intro-line-one">Hi! I'm Linh Nguyen</h1>
-          <h1 class="intro-line-two">I love <a href="index.html#featured-work">design</a> and <a href="https://www.instagram.com/wakame.rin_/" target="_blank">illustrate</a>.</h1>
-          <p class="bolding">A visual designer passionate about crafting intuitive, human-centered experiences.  I love creating user-centered designs that visually connect with people, making each interaction meaningful and impactful while also ensuring they are commercially viable and aligned with business goals.</p>
-
-          <div class="slide-button-container">
-            <button
-              class="view-about"
-              onclick="window.location.href='about.html'"
-            >
-              <!-- <a href="asset/lacienguyen-resume.pdf" target="_blank"> -->
-                <span class="circle" aria-hidden="true">
-                  <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">More about me</span>
-              <!-- </a> -->
-            </button>
-          </div>
-          
+        <div class="introduction">
+            <div class="welcome-passage">
+                <h1>Hi, I'm <span class="bold-font">Linh</span>, a <span class="bold-font">UX/UI and visual designer</span> driven by curiosity, empathy, and enthusiastic in <span class="bold-font">crafting delightful experiences</span><span class="dot-bold">.</span></h1>
+            </div>
+            
+            <p>Currently seeking UX Design co-op opportunity.</p>
         </div>
-
-        <div class="person-illustration" data-aos="fade-down" data-aos-duration="850">
-          <img class="background" src="img/profile-illustration-01.svg" alt="Illustration of Lacie"/>
-        </div>
-
-      </div>
-
-      <div class="scroll-animation" data-aos="fade-down" data-aos-duration="1500">
-        <p class="scroll-text">Scroll down to explore my work</p>
-
-        <div class="mouse_scroll">
-          <div class="mouse">
-            <div class="wheel"></div>
-          </div>
-          <div>
-            <span class="m_scroll_arrows unu"></span>
-            <span class="m_scroll_arrows doi"></span>
-            <span class="m_scroll_arrows trei"></span>
-          </div>
-        </div>
-      </div>
-      
     </section>
 
     <section id="featured-work">
-      <h2 class="project-type-heading" data-aos="fade-up" data-aos-duration="400">Featured Work</h2>
-
-      <div class="projects-grid" data-aos="fade-up" data-aos-duration="690">
-
-        <div class="project-card">
-          <div class="image">
-            <a href="heritage-burnaby-map.html"><img src="img/heritage-burnaby-map-cover-1.png" alt="Cover of Heritage Burnaby Interactive map"></a>
-          </div>
-          <div class="title"><h3>Heritage Burnaby Interactive Map</h3></div>
-          <div class="description">
-            <p>UX/UI Design / User Research / Product Design</p>
-          </div>
-          <div class="view-project">
-            <a href="heritage-burnaby-map.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="image">
-            <a href="bandsintown-amplify.html"><img src="img/bansintown-amplify-cover-1.png" alt="Cover of urbanee project"></a>
-          </div>
-          <div class="title"><h3>Bansintown Amplify</h3></div>
-          <div class="description">
-            <p>UX/UI Design / User Research / Product Design / Mobile</p>
-          </div>
-          <div class="view-project">
-            <a href="bandsintown-amplify.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="image">
-            <a href="swiss-films-previews.html"><img src="img/swiss-films-cover-1.png" alt="Cover of urbanee project"></a>
-          </div>
-          <div class="title"><h3>Swiss Films Previews</h3></div>
-          <div class="description">
-            <p>Visual Identity / Interaction Design / Microsite</p>
-          </div>
-          <div class="view-project">
-            <a href="swiss-films-previews.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="image">
-            <a href="urbanee.html"><img src="img/urbanee-cover-1.png" alt="Cover of urbanee project"></a>
-          </div>
-          <div class="title"><h3>Urbanee</h3></div>
-          <div class="description">
-            <p>Website Design / Front-end Development</p>
-          </div>
-          <div class="view-project">
-            <a href="urbanee.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div>
-
+      <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button tablink w3-red" onclick="openDesignType(event, 'UX/UI-Design')">UX/UI Design</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openDesignType(event, 'visual-design')">Visual Design</button>
       </div>
 
-      <!-- <h2 class="project-type-heading" data-aos="fade-up" data-aos-duration="400">Graphic Design</h2> -->
+      <div id="UX/UI-Design" class="design-type">
+        <div class="projects-grid" data-aos="fade-up" data-aos-duration="690">
 
-      <!-- <div class="projects-grid" data-aos="fade-up" data-aos-duration="690">
-        <div class="project-card">
-          <div class="image">
-            <a href="the-lyfe-show.html"><img src="img/the-lyfe-show-cover-1.png" alt="Cover of Heritage Burnaby Interactive map"></a>
+          <div class="project-card">
+            <div class="image">
+              <a href="heritage-burnaby-map.html"><img src="img/heritage-burnaby-map-cover-1.png" alt="Cover of Heritage Burnaby Interactive map"></a>
+            </div>
+            <div class="title"><h4>Heritage Burnaby Interactive Map</h4></div>
+            <div class="description">
+              <p>UX/UI Design, User Research, <br> Interaction Design</p>
+              <p>A story-based interactive map for <br> the Burnaby community.</p>
+            </div>
           </div>
-          <div class="title"><h3>The LYFE Show</h3></div>
-          <div class="description">
-            <p>Graphic Design, Podcast Cover Design, Branding</p>
+  
+          <div class="project-card">
+            <div class="image">
+              <a href="bandsintown-amplify.html"><img src="img/bansintown-amplify-cover-1.png" alt="Cover of urbanee project"></a>
+            </div>
+            <div class="title"><h4>Bansintown Amplify</h4></div>
+            <div class="description">
+              <p>UX/UI Design, User Research, <br> Product Design, Mobile</p>
+              <p>A live music booking and networking platform for artists and venues.</p>
+            </div>
           </div>
-          <div class="view-project">
-            <a href="the-lyfe-show.html" class="view-button animated-arrow">View Project</a>
+  
+          <div class="project-card">
+            <div class="image">
+              <a href="swiss-films-previews.html"><img src="img/swiss-films-cover-1.png" alt="Cover of urbanee project"></a>
+            </div>
+            <div class="title"><h4>Swiss Films Previews</h4></div>
+            <div class="description">
+              <p>Visual Identity, Branding, <br> Interaction Design, Microsite</p>
+            </div>
           </div>
+  
+          <div class="project-card">
+            <div class="image">
+              <a href="urbanee.html"><img src="img/urbanee-cover-1.png" alt="Cover of urbanee project"></a>
+            </div>
+            <div class="title"><h4>Urbanee</h4></div>
+            <div class="description">
+              <p>Website Design, Branding, <br> Front-end Development</p>
+              <p>A conceptual interior store that sells creative home decoration.</p>
+            </div>
+          </div>
+  
         </div>
+      </div>
 
-        <div class="project-card">
-          <div class="image">
-            <a href="plagiarism-poster-campaign.html"><img src="img/plagiarism-poster-campaign-cover-1.png" alt="Cover of Plagiarism Posters"></a>
-          </div>
-          <div class="title"><h3>Plagiarism Poster Campaign</h3></div>
-          <div class="description">
-            <p>Graphic Design, Visual Design, Branding</p>
-          </div>
-          <div class="view-project">
-            <a href="plagiarism-poster-campaign.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div>
-      </div> -->
+      <div id="visual-design" style="display:none" class="design-type"></div>
 
-        <!-- <div class="project-card">
-          <div class="image">
-            <a href="kakigori.html"><img src="img/kakigori-cover-1.png" alt="Cover of urbanee project"></a>
-          </div>
-          <div class="title"><h3>Kakigori</h3></div>
-          <div class="description">
-            <p>Simulation Design / Illustration</p>
-          </div>
-          <div class="view-project">
-            <a href="kakigori.html" class="view-button animated-arrow">View Project</a>
-          </div>
-        </div> -->
+    </section>
 
-        <!-- <div class="project-card">
-          <div class="upcoming-image">
-            <img src="img/swiss-films-cover-1.png" alt="Cover of urbanee project">
-          </div>
-          <div class="title"><h3>Swiss films festival</h3></div>
-          <div class="description">
-            <p>Visual Design, Interaction Design, Branding, Microsite</p>
-          </div>
-          <div class="upcoming-project">
-            <div class="coming-text"><p>Coming Soon</p></div>
-          </div>
-        </div> -->
-      
+    <section class="container">
+      <div class="footer-line">
+      </div>
     </section>
 
     <section id="footer-wrapper">
-      <footer>
-        <div class="connection">
-          <div class="footer-text">
-            <h1>Let's Connect</h1>
-            <p>Get in touch for opportunities or just to say hi!</p>
+      <footer class="footer">
+        <div class="footer-grid">
+
+          <div class="connection">
+              <h2>let's connect!</h2>
+              <p>Feel free to reach out for more information, <br> collab opportunities, or just a friendly hello.</p>
           </div>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/lacie-nguyen/" target="_blank" aria-label="link-to-linkedin" class="linkedin-icon underline-animation"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:kln3@sfu.ca" target="_blank" aria-label="link-to-email" class="email-icon underline-animation"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.behance.net/lacienguyen" aria-label="link-to-behance" target="_blank" class="behance-icon underline-animation"><i class="fa-brands fa-behance-square"></i></a>
-          </div>
-          <div class="copyright">
-            <p>Designed and coded by Linh Nguyen</p>
-          </div>
+
+          <div class="arrow-links">
+            <span class="footer-hover-state"> <a href="https://www.linkedin.com/in/lacie-nguyen-b9a3aa221/" target="_blank" aria-label="link-to-linkedin"> <p>LinkedIn ↗</p> </a> </span>
+            <span class="footer-hover-state"> <a href="mailto:khanhlinhnguyen908@gmail.com" aria-label="link-to-email"> <p>khanhlinhnguyen908@gmail.com ↗</p> </a> </span>
+          </div> 
+
         </div>
+
+        <div class="copyright">
+          <!-- <div class="small-diamond-shape"></div>  -->
+          <p><span>©2025 | Powered by Vietnamese coffee</span></p>
+          <!-- <div><p>powered by vietnamese coffee</p></div> -->
+          </div>
+
       </footer>
     </section>
 

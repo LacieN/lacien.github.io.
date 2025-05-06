@@ -1,0 +1,174 @@
+.side-menu a {
+    color:grey;
+  }
+
+.img-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    padding-top: 2rem;
+  }
+  
+  .text-with-img {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  .two-text-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+  }
+  
+  .sub-head{
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: #212121;
+    margin-bottom: 0.5rem;
+  }
+
+  .add-space {
+    margin-top: 3.5rem;
+  }
+
+  .also-add-space {
+    margin-top: 2.5rem;
+  }
+
+  .diy-model-space {
+    margin: 2.5rem 0;
+  }
+
+  .three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .three-columns .text-column {
+    border: 1px solid #212121;
+    border-radius: 0.8125rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .caption{
+    font-weight: 600;
+    color:#EC004A;
+    /* padding-top: 0.5rem; */
+  }
+
+  .problem-statement {
+    font-size: 1.875rem;
+    /* font-weight: 400; */
+    line-height: 130%;
+    /* background-color: #6A9241; */
+    padding: 2.5rem 5rem;
+    border-radius: 0.8125rem;
+    border: 1px solid #EC004A;
+    /* color: white; */
+  }
+
+  .pain-point-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+  }
+
+  .hmw {
+    font-size: 1.875rem;
+    /* font-weight: 400; */
+    line-height: 130%;
+    background-color: #EC004A;
+    padding: 2.5rem 5rem;
+    border-radius: 0.8125rem;
+    color: white;
+  }
+
+  .in-text-link {
+    color: #212121;
+  }
+
+  .pain-point-header {
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+    line-height: 120%;
+    margin: 1rem 0;
+  }
+
+  .four-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .four-grid .text-column {
+    border: 1px solid #212121;
+    border-radius: 0.8125rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .bandsintown-button {
+    font-size: 1.875rem;
+    line-height: 130%;
+    background-color: #FEFCFD;
+    padding: 2.5rem 5rem;
+    border-radius: 0.8125rem;
+    border: 2px solid #EC004A;
+  }
+
+  .intext-logo {
+    height: 1em; /* match the font size */
+    vertical-align: middle; /* center it with the text */
+    display: inline-block;
+  }
+
+  .bandsintwon-quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--Dark-Grey, #6C6C6C);
+  }
+
+  .img-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    padding-top: 2rem;
+  }
+
+  .img-text-grid.mockup-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+    border-radius: 0.8125rem;
+    border: 1px solid #212121;
+    padding: 2rem 6rem;
+    margin-top: 1.5rem;
+  }
+
+  .mockup-header{
+    font-weight: 600;
+    font-size: 1.375rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.65rem;
+    color: #EC004A;
+  }
+
+  .mockup-text {
+    line-height: 1.45rem;
+  }
+
+  .text-with-img {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom:2rem;
+  }

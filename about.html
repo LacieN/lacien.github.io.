@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="css/nav-bar.css" />
     <link rel="stylesheet" href="css/about.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/wrc5ffz.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet"> 
 
     <script src="https://kit.fontawesome.com/bf386900a0.js" crossorigin="anonymous"></script>
     
-    <title>About Linhhhhh</title>
+    <title>linh nguyen</title>
     
   </head>
 
@@ -28,16 +32,16 @@
         <div class="main-nav">
 
           <div class="logo-name-link">
-            <a href="index.html" class="logo-name"><img class="personal-logo" src="img/personal-logo.svg" alt="Lacie Nguyen's logo"/><strong>LINH</strong> NGUYEN</a>
+            <a href="index.html" class="logo-name"><strong>ln.</strong></a>
           </div>
 
           <div class="page-link">
             <input class="menu-btn" aria-label="hamburger-menu" type="checkbox" id="menu-btn" />
             <label class="menu-icon" aria-label="hamburger-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="index.html#featured-work" class="underline-animation">Work</a></li>
-              <li><a href="about.html" class="underline-animation">About</a></li>
-              <li><a href="asset/linh-nguyen-resume.pdf" target="_blank" class="underline-animation">Resume</a></li>
+              <li><a href="index.html#hero-underneath-line" class="hover-state">work</a></li>
+              <li><a href="about.html" class="hover-state">about</a></li>
+              <li><a href="asset/linhnguyen-resume.pdf" target="_blank" class="hover-state resume-btn">resume</a></li>
             </ul>
           </div>
 
@@ -45,73 +49,59 @@
       </header>
     </section>
 
-    <section class="content">
+    <section class="hero">
+
       <div class="about-grid">
-        <div class="left-content" data-aos="zoom-in-right" data-aos-duration="600">
-          <img src="img/profile-img.png" alt="Headshot image of Lacie Nguyen"/>
-
-          <div class="slide-button-container">
-            <button
-              class="email-link view-about"
-              onclick="window.open('mailto:kln3@sfu.ca', '_blank')"
-            >
-              <!-- <a href="mailto: kln3@sfu.ca" target="_blank"> -->
-                <span class="circle" aria-hidden="true">
-                  <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Email me at kln3@sfu.ca</span>
-              <!-- </a> -->
-            </button>
+          <div>
+            <img class="diy-model-space" src="img/fxn 2024-06-22 121900.181-crop-pts.png" alt="arrow-point">
           </div>
 
-          <div class="slide-button-container resume-button">
-            <button
-              class="view-about about-resume"
-              onclick="window.open('asset/linh-nguyen-resume.pdf', '_blank')"
-            >
-              <!-- <a href="asset/lacienguyen-resume.pdf" target="_blank"> -->
-                <span class="circle" aria-hidden="true">
-                  <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">View My Resume</span>
-              <!-- </a> -->
-            </button>
+          <div>
+            <h2>From Cake to Create 🍰</h2>            
+            <p>My passion for design began during a high school business project. My team and I started a small business selling banana cake, and I took charge of designing the logo, packaging, and website, using Wix at the time. That was when I discovered the joy of bringing ideas to life visually, and I realized how powerful design can be in shaping how people experience something, even as simple as a piece of cake.</p>
+            <p>Although I spent most of my early life in Vietnam, that experience gave me the confidence and motivation to pursue design more seriously. Five years ago, I made the big decision to move to Canada and begin my academic journey in design. It's been a challenging but incredibly rewarding path, and I'm grateful for how far that one high school project has taken me.</p>
+
+            <h5>Outside of my design life,</h5>
+            <p class="remove-margin">...you'll often find me out and about in the springtime, phone in hand, chasing the perfect shot of cherry blossoms in full bloom. There's something magical about those  pink petals that always clams me down and makes me happy. And when I'm not out photographing it, I'm probably cozied up somewhere, sketching on my iPad, or getting lost in a good game.</p>
+            <div class="arrow-links">
+              <span class="footer-hover-state"> <a href="mailto:khanhlinhnguyen908@gmail.com" target="_blank" aria-label="link-to-email"> <p>Email me ↗</p> </a> </span>
+              <span class="footer-hover-state resume-link"> <a href="asset/linhnguyen-resume.pdf" target="_blank" aria-label="link-to-resume"> <p>Resume ↗</p> </a> </span>
+            </div> 
           </div>
+      </div>
 
-        </div>
+    </section>
 
-        <div class="right-content" data-aos="zoom-in-down" data-aos-duration="600">
-          <h1>A little bit about myself...</h1>
-          <p>A visual designer with a background in illustration and coding. I was born and raised in Vietnam but came to Vancouver and kept developing my skills as an international student. I am currently in my fourth year majoring in Simon Fraser University’s School of Interactive Arts and Technology (SIAT) and Publishing minor.</p>
-
-          <p>My passion for design started from a business project I did in high school. My team started a small business that sold banana cake and I was responsible for designing the logo, package and website using Wix. I also love to <a class="insta-link" href="https://www.instagram.com/wakame.rin_?igsh=YWhybnlpMTZnbjB6&utm_source=qr" target="_blank">illustrate in my free time</a>!
-          </p>
-
-          <p><strong>Tools I use for design, art and coding:</strong> Photoshop, InDesign, Illustrator, After Effects, Adobe Premiere, Procreate, Clip Studio Paint, Figma, XD, Visual Studio Code.</p>
-        </div>
-
+    <section class="container">
+      <div class="footer-line">
       </div>
     </section>
 
     <section id="footer-wrapper">
-      <footer>
-        <div class="connection">
-          <div class="footer-text">
-            <h1>Let's Connect</h1>
-            <p>Get in touch for opportunities or just to say hi!</p>
+      <footer class="footer">
+        <div class="footer-grid">
+
+          <div class="connection">
+              <h2>let's connect!</h2>
+              <p>Feel free to reach out for more information, <br> collab opportunities, or just a friendly hello.</p>
           </div>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/lacie-nguyen/" target="_blank" aria-label="link-to-linkedin" class="linkedin-icon underline-animation"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:kln3@sfu.ca" target="_blank" aria-label="link-to-email" class="email-icon underline-animation"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.behance.net/lacienguyen" aria-label="link-to-behance" target="_blank" class="behance-icon underline-animation"><i class="fa-brands fa-behance-square"></i></a>
-          </div>
-          <div class="copyright">
-            <p>Designed and coded by Linh Nguyen</p>
-          </div>
+
+          <div class="arrow-links">
+            <span class="footer-hover-state"> <a href="https://www.linkedin.com/in/lacie-nguyen-b9a3aa221/" target="_blank" aria-label="link-to-linkedin"> <p>LinkedIn ↗</p> </a> </span>
+            <span class="footer-hover-state"> <a href="mailto:khanhlinhnguyen908@gmail.com" aria-label="link-to-email"> <p>khanhlinhnguyen908@gmail.com ↗</p> </a> </span>
+          </div> 
+
         </div>
+
+        <div class="copyright">
+          <div class="small-diamond-shape"></div> 
+          <p><span>©2025 | Powered by Vietnamese coffee</span></p>
+          <!-- <div><p>powered by vietnamese coffee</p></div> -->
+          </div>
+
       </footer>
     </section>
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
