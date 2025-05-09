@@ -1,6 +1,8 @@
-.side-menu a {
-    color:grey;
-  }
+.side-menu a:hover,
+.side-menu a:focus {
+  color: #6A9241; /* or any color you want on hover */
+  font-weight: 400;
+}
 
 .img-text-grid {
     display: grid;

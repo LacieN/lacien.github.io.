@@ -1,0 +1,74 @@
+.side-menu a:hover,
+.side-menu a:focus {
+  color: #7070FF; /* or any color you want on hover */
+  font-weight: 400;
+}
+
+.sub-head{
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: #212121;
+    margin-bottom: 0.5rem;
+}
+
+.add-space {
+  margin-top: 3.5rem;
+}
+
+.also-add-space {
+    margin-top: 2.5rem;
+  }
+  .website-preview img{
+    width: 100%;
+  }
+  
+  .website-preview a {
+    font-size: 1.10rem;
+    /* font-weight: bold; */
+    color: #FBE144;
+    background-color: #F54C2B;
+    border: 1px solid #F54C2B;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .website-preview a:hover,
+  .website-preview a:focus {
+    color: #1A2429;
+    background-color: #e3e0d7;
+    border: 1px solid #1A2429;
+  }
+  
+  .typeface-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    column-gap: 6rem;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+  }
+  
+  .typeface-preview {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .design-concept h4 {
+    margin-bottom: 0;
+    font-size: 1.20rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+  }
+  
+  .design-concept p {
+    margin-top: 0.25rem;
+  }
+  
+  .urbanee-logo-color-palette {
+    display: grid;
+    grid-template-columns: 1fr 2.64fr;
+  }

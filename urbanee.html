@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav-bar.css" />
     <link rel="stylesheet" href="css/project-general.css" />
+    <link rel="stylesheet" href="css/urbanee.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/bf386900a0.js" crossorigin="anonymous"></script>
     
-    <title>Urbanee - Lacie Nguyen</title>
+    <title>Linh Nguyen</title>
     
   </head>
 
@@ -27,16 +29,16 @@
         <div class="main-nav">
 
           <div class="logo-name-link">
-            <a href="index.html" class="logo-name"><img class="personal-logo" src="img/personal-logo.svg" alt="Lacie Nguyen's logo"/><strong>LINH</strong> NGUYEN</a>
+            <a href="index.html" class="logo-name"><strong>ln.</strong></a>
           </div>
 
           <div class="page-link">
             <input class="menu-btn" aria-label="hamburger-menu" type="checkbox" id="menu-btn" />
             <label class="menu-icon" aria-label="hamburger-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="index.html#featured-work" class="underline-animation">Work</a></li>
-              <li><a href="about.html" class="underline-animation">About</a></li>
-              <li><a href="asset/linh-nguyen-resume.pdf" target="_blank" class="underline-animation">Resume</a></li>
+              <li><a href="index.html#hero-underneath-line" class="hover-state">work</a></li>
+              <li><a href="about.html" class="hover-state">about</a></li>
+              <li><a href="asset/linhnguyen-resume.pdf" target="_blank" class="hover-state resume-btn">resume</a></li>
             </ul>
           </div>
 
@@ -46,15 +48,15 @@
 
     <section class="project-content">
       <div class="content-before-cover">
-        <h1 class="project-name">Urbanee</h1>
+        <h2 class="project-name">Urbanee</h2>
 
         <div class="project-description">
-            <div class="project-types"><p class="project-types">Website Design / Front-end Development</p></div>
+            <div class="project-types"><p class="project-types">Website Design, Branding, Front-end Development</p></div>
             <div class="short-description"><p>A conceptual store that sells creative and unique home decorations. Urbanee is a place that will inspire you to tap into your creativity and help you to bring good vibes home.</p></div>
         </div>
       </div>
 
-      <div class="project-cover-img"><img src="img/urbanee-cover-2.png" alt="Cover of urbanee project">
+      <div class="project-cover-img"><img src="img/urbanee-cover-2.png" alt="Cover of swiss films project">
         <div id="myModal" class="modal">
           <span class="close">&times;</span>
           <img class="modal-content" id="img01" alt="Modal for images" src="data:,">
@@ -62,56 +64,76 @@
       </div>
 
       <div class="content-after-cover">
-        <div class="brief-project-info">
+        <div class="side-bar">
+          <h5>Jump to...</h5>
+          <ul class="side-menu">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#brutalist-website">A Brutalist Website</a></li>
+            <li><a href="#design-concept">Design Concept</a></li>
+            <li><a href="#hover-focus-states">Hover and Focus States</a></li>
+            <li><a href="#all-devices">A Design for All Devices</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+          </ul>
+        </div>
 
-          <div class="role">
-            <h3>My Role</h3>
-            <ul>
-              <li>Web Designer</li>
-              <li>Front-End Developer</li>
-            </ul>
-          </div>
+        <div class="project-container">
+          <div class="brief-project-info">
 
-          <div class="team">
-            <h3>Team</h3>
-            <ul>
-              <li>Nhi Nguyen</li>
-            </ul>
-          </div>
+            <div class="role">
+              <h4>My Role</h4>
+              <ul>
+                <li>Web Designer</li>
+                <li>Front-End Developer</li>
+              </ul>
+            </div>
+  
+            <div class="team">
+              <h4>Team</h4>
+              <ul>
+                <li>Nhi Nguyen</li>
+              </ul>
+            </div>
 
-          <div class="duration">
-            <h3>Duration</h3>
-            <ul>
-              <li>4 weeks - Spring 2022</li>
-            </ul>
+            <div class="tools">
+              <h4>Tools</h4>
+              <ul>
+                <li>Figma</li>
+              </ul>
+            </div>
+  
+            <div class="duration">
+              <h4>Duration</h4>
+              <ul>
+                <li>5 weeks - Fall 2024</li>
+              </ul>
+            </div>
+            
           </div>
           
-        </div>
-        
-        <div class="website-preview">
-            <div>
-              <img class="myImages" src="img/urbanee-recording-1.gif" alt="Preview gif of urbanee's homepage">
-            </div>
-            <a class="preview-button" href="https://www.sfu.ca/siat/student_projects/iat339/2022_ntn3/urbanee-website/index.html" target="_blank">Click here to explore our full website!</a>
-        </div>
-
-        <div class="project-details">
           <div class="project-section">
-            <h2>Project Overview</h2>
+            <h3 id="overview" class="anchor-target">Overview</h3>
             <p>This project was a part of an upper-division web design and development course. I and my teammate had to design the website from scratch and coded it using HTML, CSS, and JavaScript. The most significant goal of this project was designing and building a responsive and functional website.</p>
+            <div class="website-preview">
+              <div>
+                <img src="img/urbanee-recording-1.gif" alt="Preview gif of urbanee's homepage">
+              </div>
+              <a class="preview-button" href="https://www.sfu.ca/siat/student_projects/iat339/2022_ntn3/urbanee-website/index.html" target="_blank">Click here to explore our full website!</a>
+            </div>
           </div>
+
+          <hr/>
 
           <div class="project-section">
-            <h2>A Brutalist and Minimalist Website</h2>
-            <p>Aiming for a minimalist design that can emphasize the products and interactive elements, I came into and adopted the brutalism aproach because of its rawness and monochromatic colour. The monochromatic art direction helps highlighting product items, in which their colors and features will shine through the design.
-            </p>
-            <img class="myImages" src="img/urbanee-moodboard.png" alt="urbanee's moodboard">
-            <img class="myImages" src="img/urbanee-sitemap.png" alt="urbanee's sitemap">
+            <h3 id="brutalist-website" class="anchor-target">A Brutalist and Minimalist Website</h3>
+            <p>Aiming for a minimalist design that can emphasize the products and interactive elements, I came into and adopted the brutalism aproach because of its rawness and monochromatic colour. The monochromatic art direction helps highlighting product items, in which their colors and features will shine through the design.</p>
+            <img src="img/urbanee-moodboard.png" alt="urbanee's moodboard">
+            <img src="img/urbanee-sitemap.png" alt="urbanee's sitemap">
           </div>
 
-          <div class="project-section design-concept">
-            <h2>Design Concept</h2>
+          <hr/>
 
+          <div class="project-section">
+            <h3 id="design-concept" class="anchor-target">Design Concept</h3>
             <div class="typeface-grid">
               <div class="typeface-description">
                 <h4>TYPEFACE</h4>
@@ -119,7 +141,7 @@
               </div>
 
               <div class="typeface-preview">
-                <img class="myImages" src="img/roboto-mono-preview.svg" alt="urbanee's typeface">
+                <img src="img/roboto-mono-preview.svg" alt="urbanee's typeface">
               </div>
             </div>
 
@@ -129,60 +151,73 @@
                     <p>Urbanee's colour palette borrows the earthy tone for our background colour and highlights the elements with hints of vivid and saturated hues.</p>
                 </div>
                 <div class="urbanee-logo-color-palette">
-                  <img class="urbanee-logo myImages" src="img/urbanee-logo.svg" alt="urbanee's logo variations"/>
-                  <img class="myImages" src="img/urbanee-color-palette.svg" alt="urbanee's color palette"/>
+                  <img class="urbanee-logo" src="img/urbanee-logo.svg" alt="urbanee's logo variations"/>
+                  <img src="img/urbanee-color-palette.svg" alt="urbanee's color palette"/>
                 </div>
                 <div class="img-caption"><p>Urbanee's logo variations and colour palette</p></div>
             </div>
-
           </div>
 
+          <hr/>
+
           <div class="project-section">
-            <h2>Hover and Focus States</h2>
+            <h3 id="hover-focus-states" class="anchor-target">Hover and Focus States</h3>
             <p>Our interactive elements signify a mouse hover by changing the mouse cursor to a larger one. Additionally, I wanted to give clear feedback for both hover and focus states by changing the state of elements. The call-to-action button and secondary button will change their background colours. The input forms will have different border colours depending on they are hovered or focused. The products on the product page change to different images to signify hover and focus states.</p>
-            <div><img class="myImages" src="img/urbanee-recording-2.gif" alt="Preview gif of urbanee's hover and focus states"></div>
+            <div><img src="img/urbanee-recording-2.gif" alt="Preview gif of urbanee's hover and focus states"></div>
             <div class="img-caption"><p>Preview of Urbanee's hover and focus states on Checkout page</p></div>
           </div>
 
+          <hr/>
+
           <div class="project-section">
-            <h2>A Design for All Devices</h2>
+            <h3 id="all-devices" class="anchor-target">A Design for All Devices</h3>
             <p>I and my teammate noticed the importance of a responsive website that users can use on any device or browser. To achieve that, we created mock-ups for each page using Figma. I was in charge of making mock-ups for both mobile and desktop versions of product, individual product and checkout pages.</p>
-            <div><img class="myImages" src="img/urbanee-responsive-mockup.png" alt="Preview gif of urbanee's responsive"></div>
+            <div><img src="img/urbanee-responsive-mockup.png" alt="Preview gif of urbanee's responsive"></div>
             <div class="img-caption"><p>Mock-ups of Urbanee's product and individual pages that are created in Figma</p></div>
             <p>Together with media queries, grid and flexbox, we easily constructed the website content with smaller columns or rows based on the size of the users' screen or viewport.</p>
-            <div><img class="myImages" src="img/urbanee-recording-3.gif" alt="Preview gif of urbanee's responsive"></div>
+            <div><img src="img/urbanee-recording-3.gif" alt="Preview gif of urbanee's responsive"></div>
             <div class="img-caption"><p>Preview of Urbanee's responsiveness on Product page</p></div>
           </div>
 
-          <div class="project-section">
-            <h2>Reflection</h2>
-            <p>Because of the limited time and resources, we cannot fully create a functional front-end website. However, this is the first project that makes me approach the brutalist design movement, which impresses me with the large typography that stands out from the monochrome background colour. As a person who knew nothing about front-end development, this is a valuable project for me. Through this project, I know how to code and style a whole website based on HTML, CSS and a little JS.</p>
-          </div>
-          
+        <hr/>
+
+        <div class="project-section">
+          <h3 id="reflection" class="anchor-target">Reflection</h3>
+          <p>Because of the limited time and resources, we cannot fully create a functional front-end website. However, this is the first project that makes me approach the brutalist design movement, which impresses me with the large typography that stands out from the monochrome background colour. As a person who knew nothing about front-end development, this is a valuable project for me. Through this project, I know how to code and style a whole website based on HTML, CSS and a little JS.</p>
         </div>
-      </div>  
+
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="footer-line">
+      </div>
     </section>
 
     <section id="footer-wrapper">
-      <footer>
-        <div class="connection">
-          <div class="footer-text">
-            <h1>Let's Connect</h1>
-            <p>Get in touch for opportunities or just to say hi!</p>
+      <footer class="footer">
+        <div class="footer-grid">
+
+          <div class="connection">
+              <h2>let's connect!</h2>
+              <p>Feel free to reach out for more information, <br> collab opportunities, or just a friendly hello.</p>
           </div>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/lacie-nguyen/" target="_blank" aria-label="link-to-linkedin" class="linkedin-icon underline-animation"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:kln3@sfu.ca" target="_blank" aria-label="link-to-email" class="email-icon underline-animation"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.behance.net/lacienguyen" aria-label="link-to-behance" target="_blank" class="behance-icon underline-animation"><i class="fa-brands fa-behance-square"></i></a>
-          </div>
-          <div class="copyright">
-            <p>Designed and coded by Linh Nguyen</p>
-          </div>
+
+          <div class="arrow-links">
+            <span class="footer-hover-state"> <a href="https://www.linkedin.com/in/lacie-nguyen-b9a3aa221/" target="_blank" aria-label="link-to-linkedin"> <p>LinkedIn ↗</p> </a> </span>
+            <span class="footer-hover-state"> <a href="mailto:khanhlinhnguyen908@gmail.com" aria-label="link-to-email"> <p>khanhlinhnguyen908@gmail.com ↗</p> </a> </span>
+          </div> 
+
         </div>
+
+        <div class="copyright">
+          <div class="small-diamond-shape"></div> 
+          <p><span>©2025 | Powered by Vietnamese coffee</span></p>
+          <!-- <div><p>powered by vietnamese coffee</p></div> -->
+          </div>
+
       </footer>
     </section>
-
-    <script src="js/modal-img.js"></script>
-
-</body>
+ 
+  </body>
 </html>

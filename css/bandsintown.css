@@ -1,6 +1,8 @@
-.side-menu a {
-    color:grey;
-  }
+.side-menu a:hover,
+.side-menu a:focus {
+  color: #EC004A; /* or any color you want on hover */
+  font-weight: 400;
+}
 
 .img-text-grid {
     display: grid;
@@ -171,4 +173,19 @@
     margin-top: auto;
     margin-bottom: 0;
     padding-bottom:2rem;
+  }
+
+  .prototype-link {
+    text-decoration: none;
+    color:#212121;
+    transition: opacity 0.2s ease;
+    display: block;           /* allows width and height to be set */
+    width: 100%; 
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .prototype-link:hover,
+  .prototype-link:focus {
+    opacity: 0.5; /* use 0.5 instead of 50% */
   }
