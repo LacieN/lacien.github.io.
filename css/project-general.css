@@ -6,7 +6,7 @@
 .side-menu a {
   color: grey;
   text-decoration: none; /* optional: removes underline */
-  transition: color 0.5s ease; /* smooth transition */
+  transition: color weight 0.3s ease; /* smooth transition */
 }
 
 video::-webkit-media-controls-timeline {display: none;}
