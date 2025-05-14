@@ -37,7 +37,7 @@
     font-size: 1.5em;
     margin: 1.35rem 1.95em;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
   }
   
   .header .logo-name:hover,
