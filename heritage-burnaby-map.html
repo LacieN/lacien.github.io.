@@ -70,10 +70,10 @@
             <li><a href="#overview">Overview</a></li>
             <li><a href="#the-problem">The Problem at Hand</a></li>
             <li><a href="#user-interview">Understanding Our Users</a></li>
-            <li><a href="#workshop-insights">Story Map's Value</a></li>
             <li><a href="#design-statement">Design Statement</a></li>
-            <li><a href="#final-mockup">Introduce New Heritage Map</a></li>
+            <li><a href="#workshop-insights">Participatory Workshop</a></li>
             <li><a href="#design-process">Design Process</a></li>
+            <li><a href="#final-mockup">Introduce New Heritage Map</a></li>
             <li><a href="#reflection">Reflection</a></li>
           </ul>
         </div>
@@ -170,8 +170,15 @@
           <hr/>
 
           <div class="project-section">
-            <h3 id="workshop-insights" class="anchor-target">The Value in Story and Community-based Map</h3>
-            <p class="insight-header">“It doesn't feel like a StoryMap” </p>
+            <h3 id="design-statement" class="anchor-target">Design Statement</h3>
+            <p class="hmw">“How might we make the map relevant to seniors and history lovers to increase people's interest and engagement with the map while retaining it's historical/informational value?”</p>
+          </div>
+
+          <hr/>
+
+          <div class="project-section">
+            <h3 id="workshop-insights" class="anchor-target">Participatory Workshop for Ideation</h3>
+            <p class="insight-header">Discovering the Value in Story Map </p>
             <p>To promote innovation and discover design opportunities, the team host a workshop with 5 participants: 3 Burnaby residents interested in Burnaby's history, 1 history student, and 1 museum supervisor.</p>
             <p>During the workshop, an urban planning assistant highlighted that <span class="body-highlight">the map, created with Esri's StoryMaps, lacked the essence of a true story map</span>. This prompted me to research further, revealing that Esri's StoryMaps has grown from 100 maps in 2011 to 2.2 million in 2023, which suggests <span class="body-highlight">there is value in the story mapping concept, but issues with its current execution</span>.</p>
             <img src="img/heritage-storymap-usage-report.png" alt="StoryMap Usage Report">
@@ -189,11 +196,57 @@
           <hr/>
 
           <div class="project-section">
-            <h3 id="design-statement" class="anchor-target">Design Statement</h3>
-            <p class="hmw">“How might we make the map relevant to seniors and history lovers to increase people's interest and engagement with the map while retaining it's historical/informational value?”</p>
+          <h3 id="design-process" class="anchor-target">Design Process</h3>
+          <p class="process-header add-space">Initial Sketches</p>
+          <p>I started the ideation process by sketching down the layout for the main screens of our interaction. The team ended up going with the layout I sketched, but adapted some changes like <span class="body-highlight">changing the icon buttons to labeled buttons for seniors to easily recognize them and know what they are used for</span>.</p>
+          <img src="img/heritage-initial-sketches.png" alt="Typefaces of poster campaign"/>
+
+          <p class="process-header add-space">Mid-fidelity wireframes/user flow</p>
+          <p>Since I had already sketched out the flow for the story submission process, I took charge of creating the mid-fidelity wireframes to fine-tune the overall user flow for it. I chose Montserrat as the typeface because it is used on the main Heritage Burnaby website, and adapted some UI elements like the search button from their main pages to maintain branding consistency.
+          </p>
+          <img src="img/heritage-story-submission-user-flow.png" alt="Typefaces of poster campaign"/>
+
+          <p class="process-header add-space">Early-stage analysis with client to discover potential issues</p>
+          <p>After finishing the mid-fidelity, we had a quick sesssion with Heritage Burnaby's curator to identify potential issues. For the story submission flow, I was able to get these two key insights:</p>
+          <div class="two-text-columns">
+            <div class="text-column">
+              <p class="caption">Photo Copyright Notice</p>
+              <p>It's important for users to know that  they retain full ownership of the copyright to any images they upload, and they agree to share the photos with Heritage Burnaby.</p>
+            </div>
+            
+            <div class="text-column">
+              <p class="caption">Missing Story Screening Process</p>
+              <p>Since there may be issues related to photo copyright and content, Heritage Burnaby need to review and audit the stories before they are published.</p>
+            </div>
+            <p></p>
           </div>
 
-          <hr/>
+          <p class="process-header">Refined Interface</p>
+          <p>Taking the insights from the analysis, I was able to finalize the final interface for the story submission, with addition to the client side for reviewing the stories.</p>
+          <div class="img-text-grid mockup-container">
+            <div class="text-with-img">
+              <p class="mockup-header">User's control over submitted photos</p>
+              <p>Users can delete individual photos instead of removing all attached images, saving them extra steps if they only want to delete one. A photo copyright notice is also shown when they select a thumbnail and confirm their submission.</p>
+            </div>
+            <video width="100%" loop autoplay muted>
+              <source src="img/heritage-users-control.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="img-text-grid mockup-container">
+            <div class="text-with-img">
+              <p class="mockup-header">Accessing the AI assistance </p>
+              <p>AI reverse image search is integrated into the client's review process. When a potential issue is detected, the system provides a source image link to help the client verify whether copyright has been violated.</p>
+            </div>
+            <video width="100%" loop autoplay muted>
+              <source src="img/heritage-AI-assistance.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+        </div>
+
+        <hr/>
 
           <div class="project-section">
             <h3 id="final-mockup" class="anchor-target">Introducing the New Heritage Burnaby Map</h3>
@@ -251,59 +304,6 @@
             </div>
 
           </div>
-
-        <hr/>
-
-        <div class="project-section">
-          <h3 id="design-process" class="anchor-target">Design Process</h3>
-          <p class="process-header add-space">Initial Sketches</p>
-          <p>I started the ideation process by sketching down the layout for the main screens of our interaction. The team ended up going with the layout I sketched, but adapted some changes like <span class="body-highlight">changing the icon buttons to labeled buttons for seniors to easily recognize them and know what they are used for</span>.</p>
-          <img src="img/heritage-initial-sketches.png" alt="Typefaces of poster campaign"/>
-
-          <p class="process-header add-space">Mid-fidelity wireframes/user flow</p>
-          <p>Since I had already sketched out the flow for the story submission process, I took charge of creating the mid-fidelity wireframes to fine-tune the overall user flow for it. I chose Montserrat as the typeface because it is used on the main Heritage Burnaby website, and adapted some UI elements like the search button from their main pages to maintain branding consistency.
-          </p>
-          <img src="img/heritage-story-submission-user-flow.png" alt="Typefaces of poster campaign"/>
-
-          <p class="process-header add-space">Early-stage analysis with client to discover potential issues</p>
-          <p>After finishing the mid-fidelity, we had a quick sesssion with Heritage Burnaby's curator to identify potential issues. For the story submission flow, I was able to get these two key insights:</p>
-          <div class="two-text-columns">
-            <div class="text-column">
-              <p class="caption">Photo Copyright Notice</p>
-              <p>It's important for users to know that  they retain full ownership of the copyright to any images they upload, and they agree to share the photos with Heritage Burnaby.</p>
-            </div>
-            
-            <div class="text-column">
-              <p class="caption">Missing Story Screening Process</p>
-              <p>Since there may be issues related to photo copyright and content, Heritage Burnaby need to review and audit the stories before they are published.</p>
-            </div>
-            <p></p>
-          </div>
-
-          <p class="process-header">Refined Interface</p>
-          <p>Taking the insights from the analysis, I was able to finalize the final interface for the story submission, with addition to the client side for reviewing the stories.</p>
-          <div class="img-text-grid mockup-container">
-            <div class="text-with-img">
-              <p class="mockup-header">User's control over submitted photos</p>
-              <p>Users can delete individual photos instead of removing all attached images, saving them extra steps if they only want to delete one. A photo copyright notice is also shown when they select a thumbnail and confirm their submission.</p>
-            </div>
-            <video width="100%" loop autoplay muted>
-              <source src="img/heritage-users-control.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="img-text-grid mockup-container">
-            <div class="text-with-img">
-              <p class="mockup-header">Accessing the AI assistance </p>
-              <p>AI reverse image search is integrated into the client's review process. When a potential issue is detected, the system provides a source image link to help the client verify whether copyright has been violated.</p>
-            </div>
-            <video width="100%" loop autoplay muted>
-              <source src="img/heritage-AI-assistance.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-
-        </div>
 
         <hr/>
 
