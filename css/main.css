@@ -235,7 +235,7 @@
   
   /* Responsive */
   @media only screen and (max-width: 768px){
-    h1 {
+    /* h1 {
       font-size: 2.75rem;
     }
     
@@ -250,7 +250,7 @@
     p {
       font-size: 1rem;
       line-height: 1.5rem;
-    }
+    } */
   
     .connection .footer-text h1,
     .citation-content h2 {

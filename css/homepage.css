@@ -148,6 +148,7 @@ margin-top: 1.25em;
 
 .project-card .description p {
 margin-left: 2rem;  
+margin-right: 1rem; 
 margin-top: 0.5rem;
 margin-bottom: 0.5rem;
 color: #586165;
@@ -177,3 +178,62 @@ line-height: normal;
 }
 
 /* Responsive */
+  @media all and (max-width: 1447px) {
+    .hero-grid {
+  position: relative;
+  overflow: hidden;
+}
+    .portrait-chibi {
+      width: 120%;
+    }
+  }
+
+  @media all and (max-width: 1270px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-chibi {
+    width: 125%;
+    }
+  }
+
+  @media all and (max-width: 1228px) {
+    .portrait-chibi {
+    width: 130%;
+    }
+  }
+
+  @media all and (max-width: 1175px) {
+    .portrait-chibi {
+    width: 140%;
+    }
+  }
+
+  @media all and (max-width: 1105px) {
+    .portrait-chibi {
+    width: 150%;
+    }
+  }
+
+  @media all and (max-width: 1025px) {
+    .portrait-chibi {
+    width: 160%;
+    }
+  }
+
+  @media all and (max-width: 996px) {
+    .portrait-chibi {
+    width: 210%;
+    }
+  }
+
+    @media all and (max-width: 812px) {
+    .portrait-chibi {
+    grid-row: 1;
+    width: 100%;
+    }
+
+    .hero-grid {
+    grid-template-columns: 1fr;}
+  }
