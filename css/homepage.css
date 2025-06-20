@@ -58,6 +58,7 @@
 /* Featured Work Section */
 #featured-work {
   margin-bottom: 7rem;
+  scroll-margin-top: 115px;
 }
 
 .w3-button.w3-red {
