@@ -1,6 +1,6 @@
 .content-before-cover,
 .content-after-cover {
-    margin: 0 3em;
+    margin: 0 12em;
 }
 
 .side-menu a {
@@ -84,12 +84,13 @@ hr {
     margin-bottom: 0.5rem;
 }
 
-.content-after-cover {
+/* .content-after-cover {
   display: grid;
   column-gap: 6rem;
   grid-template-columns: 0.2fr 1fr;
- /* optional: adds space between sidebar and content */
-}
+  padding-left: 2rem;
+  padding-right: 2rem;
+} */
 
 .side-bar {
   position: sticky;
