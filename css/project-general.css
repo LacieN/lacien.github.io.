@@ -229,21 +229,25 @@ hr {
 }
 
 /* Responsive */
-@media all and (max-width: 46.875rem) {
-  .brief-project-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+@media all and (max-width: 78.75rem) {
+  .content-before-cover, 
+  .content-after-cover {
+    margin: 0 9rem;
   }
 }
 
-@media all and (max-width: 43.75rem) {
+@media all and (max-width: 68.4375rem) {
   .content-before-cover, 
   .content-after-cover {
     margin: 0 5rem;
   }
+}
 
-  .carousel-container {
-    margin: 0 4rem;
+@media all and (max-width: 53.75rem) {
+  .brief-project-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -251,10 +255,6 @@ hr {
   .content-before-cover, 
   .content-after-cover {
     margin: 0 4rem;
-  }
-
-  .project-content h1 {
-    margin-top: 3rem;
   }
 
   .urbanee-logo-color-palette {
@@ -279,18 +279,6 @@ hr {
   .content-after-cover {
     margin: 0 3rem;
   }
-
-  .carousel-container {
-    margin: 0 3rem;
-  }
-
-  .prev {
-    left: 0%;
-  }
-
-  .next {
-    right: -0%;
-  }
 }
 
 @media all and (max-width: 34.375rem) {
@@ -298,15 +286,11 @@ hr {
   .content-after-cover {
     margin: 0 2rem;
   }
-
-  .carousel-container {
-    margin: 0.75rem;
-  }
 }
 
-@media all and (max-width: 25rem) {
-  .carousel-container {
-    margin: 0;
+@media all and (max-width: 26rem) {
+  .brief-project-info {
+    grid-template-columns: 1fr;
   }
 }
 
