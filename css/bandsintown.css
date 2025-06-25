@@ -189,3 +189,27 @@
   .prototype-link:focus {
     opacity: 0.5; /* use 0.5 instead of 50% */
   }
+
+
+  /*responsive*/
+@media all and (max-width: 65.5rem) {
+  .pain-point-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .problem-statement,
+  .hmw {
+    padding: 2.5rem 3rem;
+  }
+}
+
+@media all and (max-width: 58.85rem) {
+  .four-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-text-grid.mockup-container {
+    grid-template-columns: 1fr;
+  }
+}
+  
