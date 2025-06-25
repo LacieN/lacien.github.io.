@@ -273,4 +273,40 @@
       flex-direction: column-reverse;
     }
   }
+
+  /*footer responsive*/
+  @media all and (max-width: 91.565rem) {
+    .footer-grid {
+    grid-template-columns: 2.45fr 1fr;
+    }
+  }
+
+    @media all and (max-width: 88.75rem) {
+    .footer-grid {
+    grid-template-columns: 2.15fr 1fr;
+    }
+  }
+
+  @media all and (max-width: 81.565rem) {
+    .footer-grid {
+    grid-template-columns: 1.75fr 1fr;
+    }
+  }
+
+  @media all and (max-width: 72.813rem) {
+    .footer-grid {
+    grid-template-columns: 1.55fr 1fr;
+    }
+  }
+
+  @media all and (max-width: 67.188rem) {
+    .footer-grid {
+    grid-template-columns: 1fr;
+    }
+
+    .arrow-links {
+      padding-top: 1rem;
+      display: block;
+    }
+  }
     
